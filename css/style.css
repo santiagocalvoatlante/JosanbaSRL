@@ -1,0 +1,297 @@
+header {
+    width: 100%;
+    background-color: white;
+    top: 0;
+    /* display: flex; */
+    height: 85px;
+}
+
+header nav {
+    /* line-height: 25px; */
+    /* flex: 80%; */
+}
+
+.siemprejunto {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagservicio {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header nav ul li {
+    padding-left: 3px;
+    padding-right: 30px;
+}
+
+header ul {
+    /* display: flex; */
+    list-style-type: none;
+    /* justify-content: flex-end; */
+}
+
+/* header nav ul li a {
+    color: black;
+} */
+
+.nav-link {
+    color: black;
+
+}
+
+.img_main {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+
+}
+
+.img_logo {
+
+    /* width: 249px; */
+    /* padding-top: 20px; */
+    padding-left: 20px;
+    height: 28px;
+}
+
+.divindex {
+    /* display: flex; */
+    background-image: url(../images/pag1/sati.png);
+    background-position: 50%50%;
+    color: black;
+    background-size: cover;
+    font-size: 20px;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.img_index {
+    vertical-align: top;
+    object-fit: cover;
+    height: 225px;
+    width: auto;
+}
+
+main div h1 {
+    flex: 30%;
+}
+
+main div p {
+    flex: 70%;
+}
+
+section ul {
+    display: flex;
+    list-style-type: none;
+    left: 0;
+}
+
+footer {
+
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px; */
+    margin-top: 90px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+    font-size: 35px
+}
+
+footer p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+footer a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+footer a i {
+    color: rgb(10, 10, 9);
+    margin-right: 10px;
+}
+
+footer form .campo,
+textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+footer form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+footer .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(5, 5, 5);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+footer .btn-enviar:hover {
+    background: rgb(14, 13, 13);
+}
+
+.pag_servicio {
+    background-color: rgb(114, 46, 49);
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.divservice {
+    /* display: flex; */
+    width: 100%;
+  /*   align-items: center;
+    justify-content: center; */
+}
+
+.divservice p {
+    /* flex: 50%; */
+    text-align: center;
+    ;
+}
+
+.divservice img {
+    padding: 10px;
+    height: 200px;
+    width: auto;
+}
+
+.divservice1 {
+    /* display: flex; */
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.divservice1 p {
+    /* flex: 50%; */
+    text-align: center;
+    ;
+}
+
+.divservice1 img {
+    /* padding: 10px; */
+    height: 250px;
+    width: auto;
+}
+
+.divservice2 {
+    /* display: flex; */
+    width: 100%;
+   /*  align-items: center;
+    justify-content: center; */
+}
+
+.divservice2 div {
+    padding: 20px;
+}
+
+.divtecyase {
+    /* display: flex; */
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.divtecyase p {
+    /* flex: 50%; */
+    text-align: center;
+
+}
+
+.divtecyase img {
+
+    padding: 10px;
+    height: 150px;
+    width: auto;
+
+
+}
+
+.dictecyase1 {
+    /* display: flex; */
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.dictecyase1 p {
+   /*  flex: 60%; */
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dictecyase1 img {
+   /*  flex: 10%; */
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.secnostros {
+    /* display: flex; */
+
+
+}
+
+.secnostros1 {
+   /*  display: flex;
+    text-align: center; */
+
+}
+
+.main3 {
+    /* display: flex; */
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.ulsecontacto {
+    /* display: flex; */
+    width: 100%;
+   /*  align-items: center;
+    justify-content: center; */
+}
+
+.formContacto {
+    padding-top: 20px;
+}
+.contacto_img {
+   
+    width: 50%;
+    height: 50px;
+}
