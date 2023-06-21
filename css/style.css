@@ -172,7 +172,7 @@ footer .btn-enviar:hover {
 .divservice {
     /* display: flex; */
     width: 100%;
-  /*   align-items: center;
+    /*   align-items: center;
     justify-content: center; */
 }
 
@@ -210,7 +210,7 @@ footer .btn-enviar:hover {
 .divservice2 {
     /* display: flex; */
     width: 100%;
-   /*  align-items: center;
+    /*  align-items: center;
     justify-content: center; */
 }
 
@@ -248,14 +248,14 @@ footer .btn-enviar:hover {
 }
 
 .dictecyase1 p {
-   /*  flex: 60%; */
+    /*  flex: 60%; */
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .dictecyase1 img {
-   /*  flex: 10%; */
+    /*  flex: 10%; */
     object-fit: cover;
     width: 100%;
     height: 250px;
@@ -268,7 +268,7 @@ footer .btn-enviar:hover {
 }
 
 .secnostros1 {
-   /*  display: flex;
+    /*  display: flex;
     text-align: center; */
 
 }
@@ -283,15 +283,98 @@ footer .btn-enviar:hover {
 .ulsecontacto {
     /* display: flex; */
     width: 100%;
-   /*  align-items: center;
+    /*  align-items: center;
     justify-content: center; */
 }
 
 .formContacto {
     padding-top: 20px;
 }
+
 .contacto_img {
-   
+
     width: 50%;
     height: 50px;
+}
+
+.text {
+    display: block;
+}
+.div_serv {
+display: none;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        justify-content: center;
+
+    }
+
+    .nav-link {
+        font-size: 10px;
+
+    }
+
+    .footer {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+    }
+
+    .footer ul {
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    img.logo {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: auto;
+        /* padding-top: 3%; /
+
+        / padding-bottom: 40px; */
+    }
+
+    .img_main {
+        height: 300px;
+
+
+    }
+
+    .img_index {
+        height: 200px;
+        width: 260px;
+    }
+
+    .siemprejunto {
+        display: none;
+    }
+
+    .pFooter {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .pagservicios {
+        display: none;
+    }
+
+    .img_hileras {
+        display: none;
+    }
+
+    .div_serv {
+        height: 300px;
+        background-image: url(../images/pag1/hilera.jpg);
+        background-size:cover ;
+        display: block;
+        
+
+    } 
 }
