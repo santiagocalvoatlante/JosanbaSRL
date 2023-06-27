@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-</head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
 <body>
     <section class="container-fluid">
 
-        <header class="row">
+        <header class="row header_desktop">
             <img class="img_logo col-lg-3 align-self-center" src="./images/pag1/LOGO 2.png" alt="">
             <nav class=" col-lg-9 align-self-center">
 
@@ -37,109 +42,166 @@
             </nav>
 
         </header>
+        <header class="header_phone">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">JosanbaSRL</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">JosanbaSRL</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navlink_font">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./servicio.html">Servicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./tecyase.html">Tecnica y asesoramiento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="./contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                                </li>
+                            </ul>
 
-    <h1 class="pagservicio text-center">Técnica y Asesoramiento</h1>
-
-    <main class="2">
-        
-        <div class="divtecyase row">
-            <p class="col-lg-7 align-self-center">     
-                Brindando los más estrictos estándares de calidad, para satisfacer los requerimientos de quienes necesitan contar en todo momento o ante cualquier eventualidad con nuestra asistencia técnica.
-
-                Somos una empresa integrada por profesionales altamente capacitados en mantenimiento y operatividad de flotas de vehículos industriales, brindamos un servicio de excelencia, con calidad, confiabilidad y los mejores costos operativos.
-            </p>
-            <div id="carouselExampleAutoplaying" class="carousel slide col-lg-5" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="2000">
-                    <ul>
-                        <li>
-                            <img  src="images/pag 3/pauny.png" alt="">
-                        </li>
-                        <li>
-                            <img src="./images/pag 3/moto.png" alt="">
-                        </li>
-                    </ul>
-                   
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <ul>
-                        <li>
-                            <img src="./images/pag 3/agco.png" alt="">
-                        </li>
-                        <li>
-                            <img src="./images/pag 3/mot.png" alt="">
-                        </li>
-                    </ul>
-                  </div>
-                  
+                        </div>
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              
-            
-            </main>
+            </nav>
+
+        </header>
+
+        <h1 class="pagservicio text-center">Técnica y Asesoramiento</h1>
+
+        <main class="2">
+
+            <div class="divtecyase row">
+                <p class="col-lg-7 align-self-center">
+                    Brindando los más estrictos estándares de calidad, para satisfacer los requerimientos de quienes
+                    necesitan contar en todo momento o ante cualquier eventualidad con nuestra asistencia técnica.
+
+                    Somos una empresa integrada por profesionales altamente capacitados en mantenimiento y operatividad
+                    de flotas de vehículos industriales, brindamos un servicio de excelencia, con calidad, confiabilidad
+                    y los mejores costos operativos.
+                </p>
+                <div id="carouselExampleAutoplaying" class="carousel slide col-lg-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <ul>
+                                <li>
+                                    <img src="images/pag 3/pauny.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="./images/pag 3/moto.png" alt="">
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <ul>
+                                <li>
+                                    <img src="./images/pag 3/agco.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="./images/pag 3/mot.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+        </main>
         </div>
-        <div class="dictecyase1 row" >
+        <div class="dictecyase1 row">
             <div id="carouselExampleAutoplaying" class="carousel slide col-lg-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="2000" >
-                    <img src="./images/pag 3/motortractor.jpg" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/pag 3/sembradora.jpg" alt="">
-                  </div>
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./images/pag 3/motortractor.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pag 3/sembradora.jpg" alt="">
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
             <!-- <img src="./images/pag 3/motortractor.jpg" alt="">
             <img src="./images/pag 3/motortractor.jpg" alt=""> -->
             <p class="col-lg-7 align-self-center">
-                Desde el relevamiento y diagnóstico de las necesidades de mantenimiento y control, hasta la implementación de las soluciones adecuadas a cada flota, JOSANBA S.R.L le ofrece las siguientes ventajas estratégicas de recursos humanos para tal fin:
+                Desde el relevamiento y diagnóstico de las necesidades de mantenimiento y control, hasta la
+                implementación de las soluciones adecuadas a cada flota, JOSANBA S.R.L le ofrece las siguientes ventajas
+                estratégicas de recursos humanos para tal fin:
 
-Sistema netamente de asesoramiento integral de JOSANBA S.R.L y nuestro personal en sus funciones habituales.
+                Sistema netamente de asesoramiento integral de JOSANBA S.R.L y nuestro personal en sus funciones
+                habituales.
 
-Sistema mixto personal Técnico de su empresa y Supervisión integral de JOSANBA S.R.L
+                Sistema mixto personal Técnico de su empresa y Supervisión integral de JOSANBA S.R.L
 
-Sistema integral externo, personal Técnico de taller, jefatura de taller, Supervisión técnica y administración de JOSANBA S.R.L.
-                           
+                Sistema integral externo, personal Técnico de taller, jefatura de taller, Supervisión técnica y
+                administración de JOSANBA S.R.L.
+
             </p>
         </div>
 
-        
+
         <footer class="row d-flex">
-            <div class="col-lg-7 d-flex flex-column">
+            <div class="pFooter col-lg-7 d-flex flex-column">
                 <h2>Contáctanos</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi est voluptates quae ipsam
                     eius, in
                     quasi odio porro aut vel beatae aperiam.</p>
-                <a href="#"><i class="fa fa-phone"></i> 2266473545</a>
+                <a href="#"><i class="text fa fa-phone"></i> 2266473545</a>
                 <a href="#"><i class="fa fa-envelope"></i> josanba@gmail.com</a>
                 <a href="#"><i class="fa fa-map-marked"></i> Mechongue, Bs, As</a>
             </div>
             <div class="mb-3 col-lg-5 justify-content-end align-self-center">
                 <div class="formContacto">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+                    <input type="text" class="form-control text_foot" id="exampleFormControlInput1"
+                        placeholder="Tu nombre">
                 </div>
                 <div class="formContacto">
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                    <input type="email" class="form-control text_foot " id="exampleFormControlInput1"
                         placeholder="Correo electrónico">
                 </div>
                 <div class="formContacto">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Mensaje</textarea>
+                    <textarea class="form-control text_foot" id="exampleFormControlTextarea1"
+                        rows="3">Mensaje</textarea>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-secondary button_foot">Enviar</button>
                 </div>
             </div>
             <!-- <img class="col-lg-6"  src="./images/pag 4/autocompletrar.png" alt=""> -->
@@ -149,6 +211,7 @@ Sistema integral externo, personal Técnico de taller, jefatura de taller, Super
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
-    
+
 </body>
+
 </html>

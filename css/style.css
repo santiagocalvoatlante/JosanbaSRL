@@ -6,16 +6,43 @@ header {
     height: 85px;
 }
 
+.header_phone {
+    display: none;
+}
+
 header nav {
     /* line-height: 25px; */
     /* flex: 80%; */
 }
 
-.siemprejunto {
+.li_contacto a {
+
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.li_contacto {
+    padding: 15px;
+
+
+}
+
+.div_contactos {
+    background-image: url(../images/pag1/log.png);
+    background-size: contain;
+
+}
+
+h1,
+h2,
+h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.pagservicio {
+.pagservicios {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -98,6 +125,15 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px; */
     margin-top: 90px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(204, 7, 7, 0.25);
+    border: 1px solid rgba(204, 7, 7, 0.25);
+}
+
+.button_foot {
+    background-color: rgba(204, 7, 7, 0.25);
 }
 
 footer h2 {
@@ -300,8 +336,9 @@ footer .btn-enviar:hover {
 .text {
     display: block;
 }
+
 .div_serv {
-display: none;
+    display: none;
 }
 
 @media screen and (max-width: 576px) {
@@ -310,9 +347,16 @@ display: none;
 
     }
 
-    .nav-link {
-        font-size: 10px;
+    .header_phone {
+        display: block;
+    }
 
+    .header_desktop {
+        display: none;
+    }
+
+    .navlink_font {
+        font-size: 15px;
     }
 
     .footer {
@@ -321,6 +365,11 @@ display: none;
         display: flex;
         flex-direction: column;
         height: 350px;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+
     }
 
     .footer ul {
@@ -372,9 +421,9 @@ display: none;
     .div_serv {
         height: 300px;
         background-image: url(../images/pag1/hilera.jpg);
-        background-size:cover ;
+        background-size: cover;
         display: block;
-        
 
-    } 
+
+    }
 }
