@@ -8,6 +8,7 @@ h2,
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
 .pag_servicio {
     background-color: rgb(114, 46, 49);
     width: 100%;
@@ -15,4 +16,34 @@ h3 {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+body {
+    overflow-x: hidden;
+    
+}
+
+.div-separacion {
+    background-color: rgb(114, 46, 49);
+    height: 30px;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 576px) {
+
+    h1,
+     {
+        font-size: 25px;
+    }
+    h2,
+     {
+        font-size: 100%;
+    }
+    
+    h3 {
+        font-size: 100%;
+    }
 }
