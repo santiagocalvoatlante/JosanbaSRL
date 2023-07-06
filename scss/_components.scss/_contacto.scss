@@ -1,0 +1,37 @@
+.ulsecontacto {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    
+
+}
+
+.imgcontacto {
+    
+    max-width: 340px;
+}
+
+.li_contacto {
+    padding: 15px;
+
+    a {
+        color: black;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.div_contactos {
+    background-image: url(../images/pag1/log.png);
+    background-size:contain ;
+   /*  max-width: 900px; */
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.list_contacto{
+  
+    list-style-type: none;
+    left: 0;
+}

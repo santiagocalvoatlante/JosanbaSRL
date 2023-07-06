@@ -1,0 +1,59 @@
+
+.divservice {
+    width: 100%;
+    object-fit: cover;
+    p {
+        text-align: center;
+    }
+
+    img {
+        
+        height: 200px;
+        width: auto;
+    }
+}
+
+.divservice1 {
+    width: 100%;
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        height: 250px;
+        width: auto;
+    }
+}
+
+.divservice2 {
+    width: 100%;
+
+    div {
+        padding: 20px;
+    }
+}
+
+.div_serv {
+    display: none;
+}
+.img_hileras {
+    object-fit: center;
+}
+
+@media screen and (max-width: 576px) {
+    .pagservicios {
+        display: none;
+    }
+
+    .img_hileras {
+        display: none;
+    }
+
+    .div_serv {
+        height: 300px;
+        background-image: url(../images/pag1/hilera.jpg);
+        background-size: cover;
+        display: block;
+    }
+}

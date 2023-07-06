@@ -1,0 +1,43 @@
+.divtecyase {
+    width: 100%;
+
+    p {
+        text-align: center;
+    }
+
+    
+}
+.mycarousel {
+  div{
+   
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        li{
+            img {
+
+                padding: 10px;
+                height: 300px;
+                width: auto;
+            }
+        }
+    }
+  }
+}
+
+.dictecyase1 {
+    width: 100%;
+
+    p {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+    }
+}
