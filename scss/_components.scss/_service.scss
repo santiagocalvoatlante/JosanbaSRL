@@ -1,53 +1,63 @@
-
 .divservice {
-    width: 100%;
+
+    width: map-get($mi-mapa, valor_width);
     object-fit: cover;
+
     p {
         text-align: center;
     }
 
     img {
-        
+
         height: 200px;
-        width: auto;
+        width: map-get($mi-mapa, valor_widthimg);
     }
 }
 
 .divservice1 {
-    width: 100%;
+    width: map-get($mi-mapa, valor_width);
 
     p {
         text-align: center;
     }
 
     img {
-        height: 250px;
-        width: auto;
+        height: map-get($mi-mapa, valor_heightimg);
+        width: map-get($mi-mapa, valor_widthimg);
     }
 }
 
 .divservice2 {
-    width: 100%;
+    width: map-get($mi-mapa, valor_width);
 
     div {
         padding: 20px;
+    }
+
+    img {
+        height: map-get($mi-mapa, valor_heightimg);
+        width: map-get($mi-mapa, valor_widthimg);
     }
 }
 
 .div_serv {
     display: none;
 }
+
 .img_hileras {
     object-fit: center;
 }
 
 @media screen and (max-width: 576px) {
     .pagservicios {
+
         display: none;
+
     }
 
     .img_hileras {
-        display: none;
+
+        width: 100%;
     }
 
     .div_serv {
@@ -56,4 +66,9 @@
         background-size: cover;
         display: block;
     }
+
+    .pag_servicio {
+        display: none;
+    }
+
 }

@@ -1,19 +1,21 @@
 footer {
 
     width: 100%;
-   /*  max-width: 1100px;
+    /*  max-width: 1100px;
     margin: auto; */
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px; */
-    margin-top: 90px;
+    /*  margin-top: 150px;
+     */
+    height: 400px;
 
     .footer {
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: 350px;
+
     }
 
     h2 {
@@ -41,13 +43,7 @@ footer {
             margin-right: 10px;
         }
 
-        .footer {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            height: 350px;
-        }
+
     }
 
     form {
@@ -78,8 +74,8 @@ footer {
 
         .form-control {
             &:focus {
-                box-shadow: 0 0 0 0.2rem rgba(204, 7, 7, 0.25);
-                border: 1px solid rgba(204, 7, 7, 0.25);
+                box-shadow: 0 0 0 0.2rem $principalcolor;
+                border: 1px solid $principalcolor;
             }
         }
     }
@@ -87,7 +83,7 @@ footer {
 }
 
 .button_foot {
-    background-color: rgba(204, 7, 7, 0.25);
+    background-color: $principalcolor;
 }
 
 .formContacto {

@@ -17,15 +17,17 @@
 
     /* align-items: center;
     justify-content: center; */
-   /*  .text_ppalIndex {
+    /*  .text_ppalIndex {
         font-size: 20px;
         color: black;
     } */
 }
+
 .text_ppalIndex {
     font-size: 20px;
     color: black;
 }
+
 .img_index {
     vertical-align: top;
     object-fit: cover;
@@ -33,7 +35,7 @@
     /* width: auto; */
     padding-left: 0px;
     padding-right: 0px;
-    
+
 }
 
 
@@ -55,23 +57,22 @@ main {
 
     .img_main {
         height: 300px;
-    
+
     }
 
     .img_index {
         max-height: 200px;
         max-width: 250px;
-       
+
     }
 
     .siemprejunto {
         display: none;
     }
+
     .text_ppalIndex {
         font-size: 12px;
         text-align: center;
     }
-    
-        
-    
+
 }

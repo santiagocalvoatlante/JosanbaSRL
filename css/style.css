@@ -37,6 +37,7 @@ header section ul {
   .header_phone {
     display: block;
     height: 55px;
+    background-color: rgb(114, 46, 49);
   }
   .mynavbar {
     height: 55px;
@@ -52,22 +53,26 @@ header section ul {
     padding-right: 0px;
     width: auto;
   }
+  .navbar {
+    background-color: rgb(114, 46, 49);
+  }
 }
 footer {
   width: 100%;
   /*  max-width: 1100px;
-   margin: auto; */
+  margin: auto; */
   /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px; */
-  margin-top: 90px;
+  /*  margin-top: 150px;
+   */
+  height: 400px;
 }
 footer .footer {
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 350px;
 }
 footer h2 {
   margin-bottom: 15px;
@@ -91,13 +96,6 @@ footer a i {
   color: rgb(10, 10, 9);
   margin-right: 10px;
 }
-footer a .footer {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 350px;
-}
 footer .btn-enviar {
   padding: 15px;
   font-size: 16px;
@@ -113,12 +111,12 @@ footer .btn-enviar:hover {
   background: rgb(14, 13, 13);
 }
 footer .btn-enviar .form-control:focus {
-  box-shadow: 0 0 0 0.2rem rgba(204, 7, 7, 0.25);
-  border: 1px solid rgba(204, 7, 7, 0.25);
+  box-shadow: 0 0 0 0.2rem rgb(114, 46, 49);
+  border: 1px solid rgb(114, 46, 49);
 }
 
 .button_foot {
-  background-color: rgba(204, 7, 7, 0.25);
+  background-color: rgb(114, 46, 49);
 }
 
 .formContacto {
@@ -198,9 +196,9 @@ body {
   /* align-items: center;
   justify-content: center; */
   /*  .text_ppalIndex {
-       font-size: 20px;
-       color: black;
-   } */
+      font-size: 20px;
+      color: black;
+  } */
 }
 
 .text_ppalIndex {
@@ -269,6 +267,10 @@ main div p {
 .divservice2 div {
   padding: 20px;
 }
+.divservice2 img {
+  height: 250px;
+  width: auto;
+}
 
 .div_serv {
   display: none;
@@ -283,13 +285,16 @@ main div p {
     display: none;
   }
   .img_hileras {
-    display: none;
+    width: 100%;
   }
   .div_serv {
     height: 300px;
     background-image: url(../images/pag1/hilera.jpg);
     background-size: cover;
     display: block;
+  }
+  .pag_servicio {
+    display: none;
   }
 }
 .divtecyase {

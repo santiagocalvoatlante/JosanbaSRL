@@ -30,6 +30,7 @@ header {
     }
 
 }
+
 .header_phone {
     display: none;
 }
@@ -37,6 +38,7 @@ header {
 .nav-link {
     color: black;
 }
+
 @media screen and (max-width: 576px) {
     header {
         justify-content: center;
@@ -46,10 +48,13 @@ header {
     .header_phone {
         display: block;
         height: 55px;
+        background-color: $principalcolor;
     }
+
     .mynavbar {
         height: 55px;
     }
+
     .header_desktop {
         display: none;
     }
@@ -62,5 +67,9 @@ header {
         padding-left: 0px;
         padding-right: 0px;
         width: auto;
+    }
+
+    .navbar {
+        background-color: $principalcolor;
     }
 }

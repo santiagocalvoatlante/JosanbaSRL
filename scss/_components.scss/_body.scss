@@ -10,7 +10,7 @@ h3 {
 }
 
 .pag_servicio {
-    background-color: rgb(114, 46, 49);
+    background-color: $principalcolor;
     width: 100%;
     color: whitesmoke;
     text-align: center;
@@ -20,11 +20,11 @@ h3 {
 
 body {
     overflow-x: hidden;
-    
+
 }
 
 .div-separacion {
-    background-color: rgb(114, 46, 49);
+    background-color: $principalcolor;
     height: 30px;
     width: 100%;
     max-width: 100%;
@@ -35,15 +35,16 @@ body {
 @media screen and (max-width: 576px) {
 
     h1,
-     {
-        font-size: 25px;
-    }
-    h2,
-     {
-        font-size: 100%;
-    }
-    
-    h3 {
-        font-size: 100%;
-    }
+    {
+    font-size: 25px;
+}
+
+h2,
+{
+font-size: 100%;
+}
+
+h3 {
+    font-size: 100%;
+}
 }
