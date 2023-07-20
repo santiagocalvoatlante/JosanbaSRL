@@ -2,12 +2,12 @@
     width: 100%;
     list-style-type: none;
     display: flex;
-    
+    padding-left: 0px;
+
 
 }
 
 .imgcontacto {
-    
     max-width: 340px;
 }
 
@@ -24,14 +24,43 @@
 
 .div_contactos {
     background-image: url(../images/pag1/log.png);
-    background-size:contain ;
-   /*  max-width: 900px; */
+    background-size: contain;
     align-self: center;
     justify-content: center;
     align-items: center;
 }
-.list_contacto{
-  
+
+.list_contacto {
+
     list-style-type: none;
     left: 0;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .ulsecontacto {
+        display: block;
+        padding-left: 0px;
+
+        div {
+            display: flex;
+            
+        }
+    }
+
+    .imgcontacto {
+
+        width: auto;
+        max-width: 240px;
+
+    }
+
+    .li_contacto {
+        padding: 15px;
+
+        a {
+            font-size: 15px;
+        }
+    }
 }
