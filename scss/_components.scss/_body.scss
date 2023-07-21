@@ -32,20 +32,56 @@ body {
     padding-left: 0px;
     padding-right: 0px;
 }
+.carruselMovil {
+    display: none;
+ }
+.marcas {
+    padding-top: 100px;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            padding: 20px;
+        }
+    }
+}
+.mycar {
+    img {
+        height: 90px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
 
 @media screen and (max-width: 576px) {
 
-    h1,
+    h1
     {
     font-size: 25px;
 }
 
-h2,
+h2
 {
 font-size: 100%;
 }
 
 h3 {
     font-size: 100%;
+}
+.carruselDesktop {
+    display:  none;
+}
+
+.carruselMovil {
+    display: block;
+}
+
+.mycar {
+    img {
+        height: 70px;
+        width: 100%;
+        object-fit: contain;
+    }
 }
 }

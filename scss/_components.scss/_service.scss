@@ -47,7 +47,7 @@
 .img_hileras {
     object-fit: center;
 }
-
+ 
 @media screen and (max-width: 576px) {
     .pagservicios {
 
@@ -69,6 +69,21 @@
 
     .pag_servicio {
         display: none;
+    }
+    .carruselDesktop {
+        display:  none;
+    }
+
+    .carruselMovil {
+        display: block;
+    }
+
+    .mycar {
+        img {
+            height: 70px;
+            width: 100%;
+            object-fit: contain;
+        }
     }
 
 }

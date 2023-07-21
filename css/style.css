@@ -58,13 +58,6 @@ header section ul {
 }
 footer {
   width: 100%;
-  /*  max-width: 1100px;
-  margin: auto; */
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px; */
-  /*  margin-top: 150px;
-   */
   height: 400px;
 }
 footer .footer {
@@ -166,6 +159,26 @@ body {
   padding-right: 0px;
 }
 
+.carruselMovil {
+  display: none;
+}
+
+.marcas {
+  padding-top: 100px;
+}
+.marcas ul {
+  list-style-type: none;
+}
+.marcas ul li {
+  padding: 20px;
+}
+
+.mycar img {
+  height: 90px;
+  width: 100%;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 25px;
@@ -176,6 +189,17 @@ body {
   h3 {
     font-size: 100%;
   }
+  .carruselDesktop {
+    display: none;
+  }
+  .carruselMovil {
+    display: block;
+  }
+  .mycar img {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+  }
 }
 .img_main {
   object-fit: cover;
@@ -185,20 +209,11 @@ body {
 }
 
 .divindex {
-  /* display: flex; */
   height: 350px;
   background-image: url(../images/pag1/sati.png);
   background-position: 50% 50%;
-  /* color: black; */
   background-size: cover;
-  /* font-size: 20px; */
   width: 100%;
-  /* align-items: center;
-  justify-content: center; */
-  /*  .text_ppalIndex {
-      font-size: 20px;
-      color: black;
-  } */
 }
 
 .text_ppalIndex {
@@ -295,6 +310,17 @@ main div p {
   }
   .pag_servicio {
     display: none;
+  }
+  .carruselDesktop {
+    display: none;
+  }
+  .carruselMovil {
+    display: block;
+  }
+  .mycar img {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
   }
 }
 .divtecyase {
